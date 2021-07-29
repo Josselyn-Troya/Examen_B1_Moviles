@@ -12,19 +12,22 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireAuthModule } from '@angular/fire/auth';
+import { AngularFireStorageModule } from '@angular/fire/storage';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from '../environments/environment';
+import { FileSizePipe } from './file-size.pipe';
 
 
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, FileSizePipe],
   entryComponents: [],
   imports: [
     BrowserModule, IonicModule.forRoot(), AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireAuthModule,
-    AngularFirestoreModule,
+    AngularFireStorageModule,
+    AngularFirestoreModule
   ],
   providers: [
     

@@ -1,13 +1,12 @@
 export const environment = {
   production: true,
   firebaseConfig:{
-    apiKey: "AIzaSyBmO5lIHVHctSDAcgAMT7uik1U9Aph2COI",
-    authDomain: "loginionic-4263f.firebaseapp.com",
-    databaseURL: "https://loginionic-4263f-default-rtdb.firebaseio.com",
-    projectId: "loginionic-4263f",
-    storageBucket: "loginionic-4263f.appspot.com",
-    messagingSenderId: "319572287687",
-    appId: "1:319572287687:web:2250a9e5fa23e992d69ee2",
-    measurementId: "G-SKM84QZF8T"
+    apiKey: "AIzaSyA0LZsP2Q3dbPrSAG-10X7zn92RkqKM7uM",
+    authDomain: "examen-52db1.firebaseapp.com",
+    projectId: "examen-52db1",
+    storageBucket: "examen-52db1.appspot.com",
+    messagingSenderId: "313562002868",
+    appId: "1:313562002868:web:bfa5f4534365575fe82ee1",
+    measurementId: "G-G6EB05888H"
   }
 };
